@@ -1,0 +1,9 @@
+<project name="Project" processor="trv32p3_cnn" lib="/home/students/st20/CianOMahoney/trv32p3_cnn/lib">
+    <file type="c" name="cnn.c" path=""/>
+    <file type="c" name="main.c" path=""/>
+    <option id="llvm.lang" value="c++"/>
+    <option id="project.name" value="sort" cfg="Debug"/>
+    <option id="project.name" value="mnistCNN" cfg="Native"/>
+    <option id="project.name" value="mnistCNN" cfg="Release"/>
+    <option id="project.type" value="exe"/>
+</project>

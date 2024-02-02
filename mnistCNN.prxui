@@ -1,0 +1,88 @@
+<prxusersettings>
+    <zlayout>
+        <perspective type="iss">
+            <HorPaneNode>
+                <VerPaneNode size="3">
+                    <ViewBookNode size="3">
+                        <window name="ProjectView" visible="0" select="0"/>
+                        <window name="MicView" visible="1" select="1"/>
+                    </ViewBookNode>
+                    <ViewBookNode size="2">
+                        <window name="StatsView" visible="1" select="1"/>
+                        <window name="RegisterView" visible="1" select="0"/>
+                        <window name="StorageView" visible="0" select="0"/>
+                        <window name="PipelineView" visible="0" select="0"/>
+                    </ViewBookNode>
+                </VerPaneNode>
+                <VerPaneNode size="4">
+                    <EditorBookNode size="4">
+                        <window name="editor0" visible="1" select="0"/>
+                        <window name="editor1" visible="1" select="0"/>
+                        <window name="editor2" visible="1" select="1"/>
+                    </EditorBookNode>
+                    <ViewBookNode size="2">
+                        <window name="HostedIOView" visible="1" select="1"/>
+                        <window name="FileIOView" visible="0" select="0"/>
+                        <window name="VarInfoView" visible="0" select="0"/>
+                        <window name="LocalVarView" visible="1" select="0"/>
+                        <window name="BreakWatchView" visible="0" select="0"/>
+                        <window name="ProfilingView" visible="0" select="0"/>
+                    </ViewBookNode>
+                    <ViewBookNode size="1">
+                        <window name="ConsoleView" visible="1" select="1"/>
+                        <window name="DynamicConfiguration" visible="1" select="0"/>
+                    </ViewBookNode>
+                </VerPaneNode>
+            </HorPaneNode>
+        </perspective>
+        <perspective type="dev">
+            <VerPaneNode>
+                <HorPaneNode size="2">
+                    <ViewBookNode size="2">
+                        <window name="ProjectView" visible="1" select="1"/>
+                        <window name="SrcRefView" visible="0" select="0"/>
+                    </ViewBookNode>
+                    <EditorBookNode size="3">
+                        <window name="editor0" visible="1" select="0"/>
+                        <window name="editor1" visible="1" select="0"/>
+                        <window name="editor2" visible="1" select="0"/>
+                        <window name="editor3" visible="1" select="0"/>
+                        <window name="editor4" visible="1" select="0"/>
+                        <window name="editor5" visible="1" select="0"/>
+                        <window name="editor6" visible="1" select="1"/>
+                        <window name="editor7" visible="1" select="0"/>
+                    </EditorBookNode>
+                </HorPaneNode>
+                <ViewBookNode size="1">
+                    <window name="ConsoleView" visible="1" select="1"/>
+                </ViewBookNode>
+            </VerPaneNode>
+        </perspective>
+        <editor id="editor0" file="../trv32p3_cnn/lib/trv32p3_cnn_init.s" top="2.0" cursor="17.0" foldmap="1" linemap="0"/>
+        <editor id="editor1" file="../trv32p3_cnn/lib/trv32p3_cnn_basic.c" top="1.0" cursor="15.2" foldmap="1" linemap="0"/>
+        <editor id="editor2" file="cnn.c" top="73.0" cursor="101.13" foldmap="1" linemap="0"/>
+        <editor id="editor3" file="../trv32p3_cnn/lib/trv32p3_cnn_c_userext.h" top="19.0" cursor="33.14" foldmap="1" linemap="0"/>
+        <editor id="editor4" file="../trv32p3_cnn/lib/cnn.p" top="1.0" cursor="11.36" foldmap="1" linemap="0"/>
+        <editor id="editor5" file="../trv32p3_cnn/lib/trv32p3_cnn.n" top="53.0" cursor="66.14" foldmap="1" linemap="0"/>
+        <editor id="editor6" file="../trv32p3_cnn/lib/cnn.n" top="1.0" cursor="15.18" foldmap="1" linemap="0"/>
+        <editor id="editor7" file="../trv32p3_cnn/lib/opc.n" top="81.0" cursor="95.2" foldmap="1" linemap="0"/>
+    </zlayout>
+    <srvinit>hex_addr 0 hex_asm 0 show_instr 1 show_loop_nesting 1 show_labels 0 show_count none color_count none instruction_group_count 1 asm_align_to {} annotation(swstall) 0 annotation(chess_report) 0 annotation(chess_assert) 0 annotation(chess_tcl_break) 0 annotation(loop_nesting) 0 annotation(hosted_io) 0 annotation(end_of_loop) 0 annotation(begin_of_loop) 0 annotation(end_of_main) 0 annotation(profile) 0 annotation(cycle_count) 0 annotation(tail_call) 0 annotation(delay_slot) 0 annotation(return_address) 0 annotation(rts) 0 annotation(call) 0 annotation(noswbrkpt) 0 annotation(nohwbrkpt) 0 annotation(stop) 0 annotation(exit) 0 annotation(itrace) 0 annotation(srcrefs) 0</srvinit>
+    <issui>iss varinfo::locals last_sort {1 -increasing}
+iss profiling hazards_logging Off
+iss registers isvisible {div X.hex controller Registers X.dec} notvisible {}
+iss storages isvisible {} notvisible {}
+iss varinfo::statics last_sort {1 -increasing}
+iss memory::DMh start_field 0 vector 0
+iss memory::wDM start_field 0 vector 1
+iss memory::dm_wbb__edm_data_ff start_field 0 vector 1
+iss memory::DMw start_field 0 vector 0
+iss memory::DMb start_field 0 vector 0
+iss memory::PM start_field 0 vector 0
+iss memory::eDM start_field 0 vector 1
+iss memory::PMb start_field 0 vector 0
+iss profiling value(stepped) 1 value(report_type) textual value(lcovgenhtml_opts) {--show-details --legend --sort --demangle-cpp --rc lcov_branch_coverage=1} value(lcovgenhtml_dir) asiplcov_html
+iss waveform vars {{time {} {}}} signal_info {time {alias time color green num_format %x} {time {} {}} {alias time color green num_format %x}} samples 16 namesf_width 100 valuesf_width 100</issui>
+    <active cfg="Release" dbg="default"/>
+    <selectsim type="ISSCA" exe="&lt;PROCDIR&gt;/../iss/trv32p3_cnn_ca"/>
+</prxusersettings>
